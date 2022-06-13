@@ -95,7 +95,6 @@ const DetialsContainer = styled.div`
   flex-direction: column;
   padding: 0 1rem;
   ul {
-    list-style: none;
     line-height: 30px;
 
     li {
@@ -126,6 +125,7 @@ const Button = styled.button`
 
 const Information = styled.div`
   width: 100%;
+  padding: 0 10px;
   p {
     margin-bottom: 1rem;
     font-size: 1rem;

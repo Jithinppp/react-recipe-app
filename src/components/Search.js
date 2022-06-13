@@ -44,7 +44,6 @@ const SearchForm = styled.form`
   input {
     outline: none;
     border: none;
-    /* background-color: #fff9f9; */
     color: #242323;
     border-radius: 6px;
     font-size: 1rem;
@@ -53,11 +52,6 @@ const SearchForm = styled.form`
     padding-left: 2.5rem;
     background: #ede8e8;
     background: linear-gradient(to right, #ede8e8 0%, #ffffff 100%);
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
   }
   svg {
     color: #242323;

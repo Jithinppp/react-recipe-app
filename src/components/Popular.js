@@ -42,7 +42,7 @@ function Popular() {
           breakpoints: {
             640: {
               perPage: 3,
-              gap: ".5rem",
+              gap: ".3rem",
             },
           },
         }}

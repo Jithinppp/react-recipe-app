@@ -2,21 +2,29 @@ import React from "react";
 import { faUtensils } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <Wrapper>
-      <FontAwesomeIcon icon={faUtensils} />
-      <Logo>Food Recipes</Logo>
+      <Link to={"/"}>
+        <FontAwesomeIcon icon={faUtensils} />
+        <Logo>Food Recipes</Logo>
+      </Link>
     </Wrapper>
   );
 }
 const Wrapper = styled.div`
   margin-top: 2rem;
-  display: flex;
-  align-items: center;
+
   svg {
     font-size: 2rem;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #242323;
   }
 `;
 
